@@ -11,11 +11,11 @@ a. Placeholder API    b. Image scaling library
 
 ## Dependencies
 
-Jasmine: npm i jasmine
-Jasmine spec reporter: npm i jasmine-spec-reporter
-Express: npm i express
-Sharp: npm i sharp
-Supertest: npm i supertest
+- Jasmine: npm i jasmine
+- Jasmine spec reporter: npm i jasmine-spec-reporter
+- Express: npm i express
+- Sharp: npm i sharp
+- Supertest: npm i supertest
 
 ## devDependencies
 
@@ -52,7 +52,7 @@ Supertest: npm i supertest
 
 ## TSConfig file
 
-```
+```typescript
 {
     "compileOptions" : {
         "target": "es5",
@@ -70,12 +70,12 @@ Supertest: npm i supertest
 
 - Sample url: `localhost:3000/images?filename=fjord&width=200&height=200`
 
-- Query parameters: filename=name of image, width=width to resize and height=height to resize. 
+- Query parameters: filename=name of image, width=width to resize and height=height to resize.
 
 ### Images present on this server
+
 - encenadaport.jpg
 - fjord.jpg
 - icelandwaterfall.jpg
 - palmtunnel.jpg
 - santamonica.jpg
-
